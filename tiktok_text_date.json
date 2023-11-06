@@ -1,0 +1,92 @@
+[
+  {
+    "username": "johndoe",
+    "followers": 100000,
+    "following": 500,
+    "videos": [
+      {
+        "id": "123456789",
+        "description": "Check out this cool dance move!",
+        "created_time": "2022-03-30T16:00:00+00:00",
+        "likes": 10000,
+        "shares": 500,
+        "comments": [
+          {
+            "id": "987654321",
+            "text": "Wow, you're an amazing dancer!",
+            "created_time": "2022-03-31T10:00:00+00:00"
+          },
+          {
+            "id": "654321987",
+            "text": "Can you teach me how to do that?",
+            "created_time": "2022-03-31T12:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "id": "456789123",
+        "description": "Trying out this new recipe!",
+        "created_time": "2022-03-28T12:00:00+00:00",
+        "likes": 5000,
+        "shares": 100,
+        "comments": [
+          {
+            "id": "321654987",
+            "text": "Looks delicious!",
+            "created_time": "2022-03-29T08:00:00+00:00"
+          },
+          {
+            "id": "789456123",
+            "text": "I'm going to try this!",
+            "created_time": "2022-03-30T14:00:00+00:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "username": "andersonlau",
+    "followers": 100,
+    "following": 9000,
+    "videos": [
+      {
+        "id": "123456789",
+        "description": "Check out this cool dance move!",
+        "created_time": "2022-03-30T16:00:00+00:00",
+        "likes": 10000,
+        "shares": 500,
+        "comments": [
+          {
+            "id": "987654321",
+            "text": "Wow, you're an amazing dancer!",
+            "created_time": "2022-03-31T10:00:00+00:00"
+          },
+          {
+            "id": "654321987",
+            "text": "Can you teach me how to do that?",
+            "created_time": "2022-03-31T12:00:00+00:00"
+          }
+        ]
+      },
+      {
+        "id": "456789123",
+        "description": "Trying out this new recipe!",
+        "created_time": "2022-03-28T12:00:00+00:00",
+        "likes": 5000,
+        "shares": 100,
+        "comments": [
+          {
+            "id": "321654987",
+            "text": "Looks delicious!",
+            "created_time": "2022-03-29T08:00:00+00:00"
+          },
+          {
+            "id": "789456123",
+            "text": "I'm going to try this!",
+            "created_time": "2022-03-30T14:00:00+00:00"
+          }
+        ]
+      }
+    ]
+  }
+]
