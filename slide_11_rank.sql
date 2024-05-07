@@ -1,3 +1,6 @@
+-- enter database enrollment;
+USE enrollment;
+
 -- rank()
 SELECT
 	takes.ID, 
