@@ -1,4 +1,3 @@
--- enter database enrollment;
 USE enrollment;
 
 -- rank()

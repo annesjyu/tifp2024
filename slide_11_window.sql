@@ -81,3 +81,34 @@ END$$
 DELIMITER ;
 sales_data
 CALL InsertDateData();
+
+-- OVER 
+DESC sales_data;
+                
+SELECT 
+  kind_of_business,
+  AVG(sales) OVER (
+    PARTITION BY kind_of_business 
+    ORDER BY sales_month 
+    ROWS BETWEEN 4 PRECEDING AND CURRENT ROW
+  ) AS five_monthly_avg_sale
+FROM sales_data;
+
+
+-- calculate median across the table.
+-- WITHIN GROUP is used with ordered-set aggregate functions, e.g. percentile_cont
+SELECT 
+  percentile_cont(0.5) WITHIN GROUP (ORDER BY sales) OVER () AS median_sales
+FROM 
+  sales_data
+LIMIT 1;
+
+-- calculate the median within each business category using partition by
+SELECT 
+  distinct kind_of_business,
+  percentile_cont(0.5) WITHIN GROUP (ORDER BY sales) OVER (PARTITION BY kind_of_business) AS median_sales
+FROM 
+  sales_data;
+
+
+
