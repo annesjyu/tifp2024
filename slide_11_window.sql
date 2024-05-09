@@ -61,27 +61,6 @@ DELIMITER ;
 
 CALL InsertDateData();
 
-
-
-
-
-
-CREATE PROCEDURE InsertDateData()
-BEGIN
-    DECLARE vDate DATE;
-    SET vDate = '1992-01-01';
-    WHILE vDate <= '1992-01-31' DO
-        INSERT INTO sales_data (sales_month, naics_code, kind_of_business, sales)
-        VALUES
-        (vDate, '441', 'Sample Business Type', FLOOR(1000 + (RAND() * 29000)));
-        SET vDate = DATE_ADD(vDate, INTERVAL 1 DAY);
-    END WHILE;
-END$$
-
-DELIMITER ;
-sales_data
-CALL InsertDateData();
-
 -- OVER 
 DESC sales_data;
                 
