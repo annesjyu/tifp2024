@@ -1,0 +1,16 @@
+descriptor,total_complaint_count,data_count,corr_count,corr_pct
+Noise - Street/Sidewalk: Loud Talking,213403,494,-0.662,-0.662
+HEAT/HOT WATER: ENTIRE BUILDING,1137460,457,0.619,0.619
+Maintenance or Facility: Structure - Outdoors,63266,484,-0.577,-0.577
+Sanitation Condition: 22 Weeds,21266,407,-0.566,-0.566
+HEAT/HOT WATER: APARTMENT ONLY,608605,457,0.563,0.563
+Maintenance or Facility: Garbage or Litter,32867,465,-0.545,-0.545
+HEATING: HEAT,868960,384,0.535,0.535
+Overflowing Litter Baskets: 6 Overflowing Litter Baskets,16629,456,-0.53,-0.53
+Street Sign - Dangling: Other/Unknown,7707,476,0.526,0.526
+Water System: Hydrant Running (WC3),103760,495,-0.514,-0.514
+Vending: In Prohibited Area,24967,474,-0.512,-0.512
+Vending: Unlicensed,21633,463,-0.51,-0.51
+Noise - Street/Sidewalk: Loud Music/Party,739463,494,-0.509,-0.509
+Water System: Hydrant Running Full (WA4),117419,488,-0.504,-0.504
+Traffic Signal Condition: Controller,278611,496,0.504,0.504
